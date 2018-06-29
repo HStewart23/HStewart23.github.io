@@ -1,1 +1,154 @@
+ .banner>h1{
+  font-family: 'Sunflower', sans-serif;
+  font-size: 150px;
+  text-align: center; 
+  padding-top: 25px;
+  
+}
+.banner>h2{
+  font-family: 'Sunflower', sans-serif;
+  font-size: 30px; 
+  text-align: center;  
+  
+}
+body{
+  margin: 0px;
+  padding:0px;
+  background-color: #8fd8d2
+}
+.nav{
+  font-family: 'Sunflower', sans-serif;
+  background-color:#FFF;
+  font-color: #000;
+  list-style: none;
+  text-align: right;
+  padding: 20px, 0px, 20px, 0px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.nav > li{
+  display: inline-block;
+  padding:0 60px 0 60px;
+  font-size: 16px;
+  text-align:right;
+  }
 
+.nav > li > a{
+  color: #000000;
+ }
+
+.logo {
+  float: left;
+  padding-top: 10px ;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Sunflower', sans-serif;
+  }
+
+.logo > a {
+  color: #000000;
+  padding-right: 600px;
+}
+
+.banner{
+  height: 400px;
+  display: block;
+  padding-top: 20px;
+}
+
+#page2{
+  font-size: 30px;
+  padding: 100px 50px;
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+  background-color: #DCB239;
+  height: 400px;
+  margin:none;
+}
+
+.header{
+  font-family:'Sunflower', sans-serif;
+  weight: bold; 
+  font-size: 30px;
+  text-align: center;
+  padding-top: 300px 50px;
+}
+
+.projects{
+  display: block;
+  height: 400px;
+  width: 1000px;
+  padding: 100px 5px;
+  margin: none;
+  
+}
+
+.project1{
+  width: 300px;
+  border: 2px solid;
+  font-family:'Sunflower', sans-serif;
+  border-radius: 10px;
+  margin: 20px 10px;
+  float: left;
+  padding: 5px auto;
+
+}
+.project1 > h1 {
+  padding: 10px 0 ;
+}
+
+.project1 > p {
+  font-size: 14px;
+  font-color: #000;
+  max-width: 250px;
+}
+
+.project1 > h2 >a {
+  font-color: #000000;
+}
+
+#page4 {
+  display:block;
+  font-family:'Sunflower', sans-serif;
+  font-size: 30px;
+  padding: 120px 50px;
+  text-align: center;
+  height: 400px;
+  width; 1000;
+  background-color: #df744a;
+  margin:none;
+}
+    
+
+#page4>h2 {
+  font-size:60px;
+  /*float: left;
+  padding-left: 100px;*/
+ 
+}
+
+.btn{
+  color: #000;
+  background-color:#df744a;
+  font-family:'Sunflower', sans-serif; 
+  padding: 5px auto;
+  font-size: 50px;
+  border: none;
+  }
+
+.row{
+  padding-left: 375px;
+}
+.fa-linkedin{
+  color: #0077B5;
+}
+.fa-facebook-square{
+  color: 	#3b5998;
+}
+
+.col-xs-1{
+  float:right;
+} 

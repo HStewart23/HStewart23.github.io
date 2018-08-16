@@ -1,155 +1,270 @@
- .banner>h1{
-  font-family: 'Sunflower', sans-serif;
-  font-size: 150px;
-  text-align: center; 
-  padding-top: 25px;
-  
+.content{
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.banner>h2{
-  font-family: 'Sunflower', sans-serif;
-  font-size: 30px; 
-  text-align: center;  
-  
-}
+
 body{
-  margin: 0px;
+  display:flex;
+  margin: 0;
   padding:0px;
-  background-color: #8fd8d2
-}
-.nav{
-  font-family: 'Sunflower', sans-serif;
-  background-color:#FFF;
-  font-color: #000;
-  list-style: none;
-  text-align: right;
-  padding: 20px, 0px, 20px, 0px;
-  padding-top: 10px;
-  font-weight: bold;
-}
-.nav > li{
-  display: inline-block;
-  padding:0 60px 0 60px;
-  font-size: 16px;
-  text-align:right;
+  background-color: #000;
+  font-family: 'Sunflower', sans-
+    serif;
+  color: #fff;
   }
 
-.nav > li > a{
-  color: #000000;
- }
+h1{
+  font-size: 60px;
+}
 
-.logo {
-  float: left;
-  padding-top: 10px ;
-  padding-left: 25px;
-  padding-bottom: 10px;
-  color: #000000;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Sunflower', sans-serif;
-  }
+h2{
+  font-family: 'Bad Script', cursive;
+  color: #FF6EC7;
+  width: 40%;
+  font-size: 40px;
 
-.logo > a {
-  color: #000000;
-  padding-right: 600px;
+}
+
+
+
+p{
+  font-size: 30px;
+}
+
+/*-------- nav bar -----------*/
+.topnav {
+    background-color: #000;
+    
+}
+
+.topnav a {
+    float: center;
+    color: #303030;
+    text-align: center;
+    padding: 55% 2% 55% 10px;
+    margin: 0 -10% 0 0 ;
+    text-decoration: none;
+    font-size: 17px;
+   display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* ------------- page 1 -----------*/
+.imgs{
+   margin: 30px 40px 0px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  border-color: #00FFFF;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  padding : 10px;
+  margin: 10px 90px 60px 0px;
+  
+  
 }
 
 .banner{
-  height: 400px;
-  display: block;
-  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+
+ }
+
+.banner>h1{
+  font-size: 200px;
+  width: 50%;
+  margin: -4% 0% 20% 2%;
+  padding: 0% 0% 0% 0%;
+  
+  }
+
+.banner>h2{
+  width: 60%;
+  font-size: 40px;
+  margin: 2% 200px 0% -20%;
+  padding: 0px 0% 0px 0px;
+  
+  }
+
+.logo{
+  display:flex;
+  justify-content: center;  
+  margin: -38% 0% 10% 77%;
+  border-color:#FFAD51;
+  height: 150px;
+  width: 150px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  padding :  10px;
+
 }
+
+
+/* ----------- page 2 -------------*/
 
 #page2{
-  font-size: 30px;
-  padding: 100px 50px;
-  text-align: center;
-  font-family: 'Sunflower', sans-serif;
-  background-color: #DCB239;
-  height: 400px;
-  margin:none;
-}
+  display: flex;
+  justify-content: space-around;
+  text-align:justify;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  /*height: 21%;*/
+  margin: -5% 5% 0% 1%;
+  padding: 1% 2% 1% 2%;
+  border-color: #00FFFF;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15%;
+  }
 
-.header{
-  font-family:'Sunflower', sans-serif;
-  weight: bold; 
-  font-size: 30px;
-  text-align: center;
-  padding-top: 300px 50px;
-}
 
-.projects{
-  display: block;
-  height: 400px;
-  width: 1000px;
-  padding: 100px 5px;
-  margin: none;
+/* -------- page 3 --------------*/
+.sub > h2{
+  display:flex;
+  justify-content: flex-start;
+  padding: 2%  0 0 6%;
+  margin: 0  -10% 0 0%;
   
-}
+  }
 
-.project1{
-  width: 300px;
-  border: 2px solid;
-  font-family:'Sunflower', sans-serif;
-  border-radius: 10px;
-  margin: 20px 10px;
-  float: left;
-  padding: 5px auto;
+.header > h1{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 0 5px 0;
+  margin: -1%  0% 0 0%;
+  font-size: 100px;
+  }
 
-}
-.project1 > h1 {
-  padding: 10px 0 ;
-}
+.links{
+  margin: 50px 25px 50px 0;
+  height: 150px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  
+} 
 
-.project1 > p {
-  font-size: 14px;
-  font-color: #000;
-  max-width: 250px;
-}
-
-.project1 > h2 >a {
-  font-color: #000000;
-}
-
-#page4 {
-  display:block;
-  font-family:'Sunflower', sans-serif;
+.ffc > a{
+  background-color: #FFF;
+  padding: 110px 35px 110px 35px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#FFAD51;
+  color: #000;
   font-size: 30px;
-  padding: 120px 50px;
-  text-align: center;
-  height: 400px;
-  width; 1000;
-  background-color: #df744a;
-  margin:none;
-}
-    
+  text-decoration: none;
+} 
 
-#page4>h2 {
-  font-size:60px;
-  /*float: left;
-  padding-left: 100px;*/
- 
-}
+.ffc > a:hover{
+  background-color: #006400;
+  color: white;
+  
+ } 
+
+.gthb > a{
+  background-color: #FFF;
+  padding: 110px 85px 110px 85px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#FFAD51;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+} 
+
+.gthb > a:hover{
+  background-color: #000;
+  color: white;
+ } 
+
+.cdws > a{
+  background-color: #FFF;
+  padding: 110px 65px 110px 65px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#FFAD51;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+} 
+
+.cdws > a:hover{
+  background-color: #A63127;
+  color: white;
+ } 
+
+
+/*------- page 4 ---------*/
+#page4{
+  display: flex;
+  justify-content: center;
+  text-align:justify;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  margin: 10% 5% 0% 0%;
+  padding: 1% 2% 0% 2%;
+  border-color: #00FFFF;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15%;
+  }
+
+
+/*------- page 5----------*/
+
+#page5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  margin: 10%;
+  padding: 2%;
+  }
+
+    
+#page5>h1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction:row;
+  }
+
+.tagln{
+  display:flex;
+  justify-content: flex-start;
+  padding: 0%  5% 0 5%;
+  margin: -10%  0% 0 -10%;}
 
 .btn{
-  color: #000;
-  background-color:#df744a;
-  font-family:'Sunflower', sans-serif; 
-  padding: 5px auto;
+  color: #fff;
+  background-color:#000; 
   font-size: 50px;
   border: none;
   }
 
-.row{
-  padding-left: 375px;
-}
 .fa-linkedin{
   color: #0077B5;
 }
-.fa-facebook-square{
-  color: 	#3b5998;
-}
-
-.col-xs-1{
-  float:right;
-} 
 

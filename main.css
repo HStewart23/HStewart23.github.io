@@ -130,6 +130,10 @@ img {
  color: #28140B;
 }
 
+.pag > p {
+  margin: 4vw 0 0 0; 
+}
+
 /* page 2*/
 
 #page2 > h2{

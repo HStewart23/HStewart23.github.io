@@ -56,21 +56,17 @@ h5{
   color: #cc0000; 
   text-align: justify;
   margin: 2vw 2vw 0 2vw;
- 
-}
+ }
 
 p{
-  
   font-size:2.35vw;
   margin: 3vw 1.5vw 1.5vw 1.5vw;
   font-family: 'Share', cursive;
   color: #353F3E;
   text-align: justify;
- 
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 
@@ -80,7 +76,6 @@ a:hover, a:visited, a:link, a:active
  display:flex;
  flex-direction: row;
  justify-content: center;
- 
 }
 
 .imag > h2{
@@ -98,7 +93,7 @@ text-decoration: none;
 img {
   height: 40vw;
   margin: 5vw 0.5vw 5vw 0.5vw ;
-}
+ }
 
 .imag:hover {
   opacity: 50%;
@@ -113,35 +108,33 @@ img {
   height: 40vw;
   width: 52.7vw;
   margin: 10vw 0 5vw 23vw;
-  
-}
+ }
 
 .page > h2{
-margin: 20vw 0 0 0;
-font-family: 'East Sea Dokdo', cursive;
-color: #000;
-
+ margin: 20vw 0 0 0;
+ font-family: 'East Sea Dokdo', cursive;
+ color: #000;
 }
 
 
 /* page 1 */
 
 .red{
-  color :#4A766E;
+ color :#4A766E;
 }
 
 .bodtxt1 > h2 {
-margin: 2vw 0 0 0;
-font-size: 7vw;
-font-family: 'East Sea Dokdo', cursive;
-color: #28140B;
+ margin: 2vw 0 0 0;
+ font-size: 7vw;
+ font-family: 'East Sea Dokdo', cursive;
+ color: #28140B;
 }
 
 /* page 2*/
 
 #page2 > h2{
-  margin: 10vw, 0 0 0;
-color: #000;
+ margin: 10vw, 0 0 0;
+ color: #000;
 }
 
 .text1{
@@ -152,13 +145,11 @@ color: #000;
   display: flex;
   justify-content: center;
   flex-direction:column;
-  
- }
+  }
 
 .lis{
  margin: 0.5vw 0 0.5vw 0; 
- 
-}
+ }
 
 .bodtxt2 > h2 {
 margin: 6vw 0 0 0;
@@ -178,8 +169,7 @@ margin: 10vw 0 30vw 23vw;
 margin: 7vw 1.5vw 1.5vw 1.5vw;
 }
 
-#page3 > a:hover, a:visited, a:link, a:active
-{
+#page3 > a:hover, a:visited, a:link, a:active{
     color: #4A766E;
 }
 
@@ -193,4 +183,11 @@ margin: 6vw 0 0 0;
 font-size: 7vw;
 font-family: 'East Sea Dokdo', cursive;
 color: #28140B;
+}
+
+/* ------ credit ------*/
+
+.credit > p {
+  display: flex;
+  justify-content: flex-end;
 }

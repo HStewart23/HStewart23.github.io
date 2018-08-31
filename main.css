@@ -178,7 +178,7 @@ margin: 10vw 0 30vw 23vw;
 margin: 7vw 1.5vw 1.5vw 1.5vw;
 }
 
-#page3 > a:hover a:visited, a:link, a:active
+#page3 > a:hover, a:visited, a:link, a:active
 {
     color: #4A766E;
 }

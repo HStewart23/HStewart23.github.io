@@ -1,5 +1,5 @@
 
- ##You can view it here - >  https://hstewart23.github.io/calculator-for-application/ :point-left:
+ #You can view it here - >  https://hstewart23.github.io/calculator-for-application/ :point-left:
 
 Calculator I made for my application to Founders and Coders. 
 - multiplies 
